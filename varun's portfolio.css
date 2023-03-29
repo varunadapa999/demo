@@ -1,0 +1,274 @@
+
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'poppins',sans-serif;
+text-decoration: none;
+scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+.subject{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position:center ;
+}
+
+
+
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-left: 40%;
+    padding-right: 20%;
+}
+
+.logo-img{
+    width: 175px;
+    cursor: pointer;
+    position: absolute;
+    float: left;
+    top: 3%;
+    left: 5%;
+
+}
+
+span{
+    color: red;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 30px;
+    font-size: 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color:rgb(255, 231, 14);
+    transition: .4s;
+}
+
+.content{
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color: beige;
+    margin: 10px 0 20px;
+    font-size: 75px;
+ }
+
+ h3{
+    color: beige;
+    font-size: 25px;
+    margin-bottom: 50px;
+ }
+
+ h4{
+    color: beige;
+    letter-spacing: 4px;
+    font-size: 30px;
+ }
+
+ .btn{
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    color :#ffffff;
+    background-color: rgb(51, 50, 48);
+    padding: 8px 14px;
+    margin: 40px 5px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    transition-duration: 0.4s;
+    border-radius: 30px;
+ }
+
+ .btn:hover{
+    background-color: rgb(220, 167, 20);
+    box-shadow: 0 15px 10px rgba(25, 25, 26, 0.4);
+ }
+
+ .btn:active {
+    transform: translateY(5px);
+ }
+
+ .boy{
+    position: absolute;
+    float: right;
+    left: 60%;
+    top: 30%;
+    cursor: pointer;
+    width: 450px;
+  }
+
+.about{
+    width: 100%;
+    height: 100vh;
+    padding: 100px o;
+  
+}
+
+.about-img{
+    position: absolute;
+    float: left;
+    top: 130%;
+    right: 60%;
+    width: 500px;
+    height: auto;
+    border: 3px;
+    border-radius: 30px;
+    border-style:inherit ;
+    
+}
+.about-text {
+    position: absolute;
+    float: right;
+    top: 130%;
+    left: 50%;
+    width: 600px;
+}
+
+
+.about-text h2{
+    color:white ;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+.about-text p{
+    color: rgb(214, 131, 240);
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.portfolio{
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0;
+    background-color: #191919 ;
+}
+
+.details{
+    position: absolute;
+    color: aliceblue;
+    float: left;
+    top: 210%;
+    right: 50%;
+    width: 600px;
+}
+
+.details h2{
+    color:white ;
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+.details h3{
+    color: rgb(60, 231, 26);
+    letter-spacing: 2px;
+}
+
+.details p b {
+    color: rgb(153, 235, 217);
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.skills {
+    position: absolute;
+    color: aliceblue;
+    float: right;
+    top: 210%;
+    left: 60%;
+    width: 600px;
+}
+
+.skills h2 {
+    color: white;
+    font-size: 55px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    letter-spacing: 3px;
+}
+
+.skills p b {
+    color: red;
+    letter-spacing: 2px;  
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    height :400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    margin-bottom: 20px;
+    font-weight: bold;
+    position:relative;
+    left : 30%;
+    
+}
+
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 550px;
+    text-align: center;
+    line-height: 26px;
+}
+
+.social{
+    display: flex;
+}
+
+.social a{
+    width: 75px;
+    height: 75px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background: #1d1c1c ;
+    border-radius: 50%;
+    margin: 22px 10px;
+    position: relative;
+    left: 22%;
+    
+}
